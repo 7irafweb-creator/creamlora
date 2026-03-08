@@ -38,15 +38,15 @@ export default function App() {
         
         {/* Features Banner */}
         <section className="container mx-auto px-4 py-16 mb-8">
-          <div className="bg-blue-600 rounded-2xl p-8 md:p-12 text-white flex flex-col md:flex-row items-center justify-between gap-8">
+          <div className="bg-rose-500 rounded-2xl p-8 md:p-12 text-white flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="max-w-2xl">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Besoin d'un PC sur mesure ?</h2>
-              <p className="text-blue-100 text-lg mb-0">
-                Nos experts vous accompagnent pour monter la configuration de vos rêves, adaptée à vos besoins et à votre budget.
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Besoin d'une routine personnalisée ?</h2>
+              <p className="text-rose-100 text-lg mb-0">
+                Nos experts beauté vous accompagnent pour créer la routine de soins parfaite, adaptée à votre type de peau et à vos besoins.
               </p>
             </div>
-            <button className="bg-white text-blue-600 hover:bg-slate-100 font-bold py-4 px-8 rounded-xl whitespace-nowrap transition-colors shadow-lg">
-              Demander un devis
+            <button className="bg-white text-rose-500 hover:bg-slate-100 font-bold py-4 px-8 rounded-xl whitespace-nowrap transition-colors shadow-lg">
+              Diagnostic Gratuit
             </button>
           </div>
         </section>

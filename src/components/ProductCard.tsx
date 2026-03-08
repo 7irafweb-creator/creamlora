@@ -47,7 +47,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       {/* Content */}
       <div className="p-5 flex flex-col flex-grow border-t border-slate-100">
         <span className="text-xs text-slate-500 mb-2 uppercase tracking-wider font-medium">{product.category}</span>
-        <h3 className="text-sm font-semibold text-slate-800 mb-2 line-clamp-2 flex-grow hover:text-blue-600 cursor-pointer">
+        <h3 className="text-sm font-semibold text-slate-800 mb-2 line-clamp-2 flex-grow hover:text-rose-600 cursor-pointer">
           {product.name}
         </h3>
         
@@ -69,7 +69,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             )}
             <p className="text-lg font-bold text-red-600">{product.price.toLocaleString('fr-MA')} Dhs</p>
           </div>
-          <button className="bg-slate-100 hover:bg-blue-600 text-slate-700 hover:text-white p-2.5 rounded-lg transition-colors">
+          <button className="bg-slate-100 hover:bg-rose-500 text-slate-700 hover:text-white p-2.5 rounded-lg transition-colors">
             <ShoppingCart size={20} />
           </button>
         </div>

@@ -12,7 +12,7 @@ export default function ProductGrid({ title, products, viewAllLink = '#' }: Prod
     <section className="container mx-auto px-4 py-12">
       <div className="flex justify-between items-end mb-8 border-b border-slate-200 pb-4">
         <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{title}</h2>
-        <a href={viewAllLink} className="text-blue-600 font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">
+        <a href={viewAllLink} className="text-rose-500 font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">
           Voir tout <ChevronRight size={16} />
         </a>
       </div>
